@@ -13,14 +13,23 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 30px;
   text-align: center;
+  gap: 10px;
 }
 
+.logo-icon {
+  width: 50px;   
+  height: 50px;
+}
+
+
 .logo-link {
-  color: #8b0000; /* dark red */
+  color: #ff0606; /* dark red */
   text-decoration: none;
 }
 
@@ -33,7 +42,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 
 .sidebar-links li {
@@ -45,7 +54,7 @@
 }
 
 .sidebar-links li:hover {
-  background-color: #ff6600; /* orange */
+  background-color: #ff0606; 
   color: white;
   border-radius: 5px;
 }
