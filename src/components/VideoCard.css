@@ -1,0 +1,47 @@
+.video-card {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.video-thumbnail {
+  height: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  background-color: #000;
+}
+
+.video-info {
+  padding: 10px 0;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.video-channel {
+  color: #606060;
+  font-size: 14px;
+  margin: 0;
+}
+
+.video-stats {
+  color: #909090;
+  font-size: 13px;
+  margin: 2px 0 0 0;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 180px;
+  object-fit: contain; /* Maintain aspect ratio without cropping */
+  background-color: #000; /* Optional: black background for letterboxing effect */
+  display: block;
+  margin: 0 auto;
+}
